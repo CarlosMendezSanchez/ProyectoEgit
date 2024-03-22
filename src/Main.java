@@ -11,7 +11,8 @@ public class Main {
 		numero2 = sc.nextInt();
 		resultado = suma(numero1, numero2);
 		System.out.println("Suma: " + resultado);
-
+		resultado = resta(numero1, numero2);
+		System.out.println("Resta: " + resultado);
 	}
 	public static int suma(int a, int b) {
 		int c;
@@ -19,4 +20,9 @@ public class Main {
 		return c;
 		}
 
+	public static int resta(int a, int b) {
+		int c;
+		c = a - b;
+		return c;
+		}
 }
