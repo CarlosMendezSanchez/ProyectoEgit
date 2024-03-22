@@ -9,5 +9,13 @@ public class Main {
 		numero1 = sc.nextInt();
 		System.out.print("Introduce segundo número: ");
 		numero2 = sc.nextInt();
+		resultado = producto(numero1, numero2);
+		System.out.println("Producto: " + resultado);
+
 	}
+	public static int producto(int a, int b) {
+		int c;
+		c = a * b;
+		return c;
+		}
 }
